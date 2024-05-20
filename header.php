@@ -1,30 +1,76 @@
-<!-- Navbar Start -->
-<div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
-            <a href="index.html" class="navbar-brand ml-lg-3">
-                <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>Edukate</h1>
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
+    <!-- Header -->
+    <header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance" data-header-fix-moment="300">
+      <div class="u-header__section u-header__section--dark g-bg-black-opacity-0_4 g-transition-0_3 g-py-10" data-header-fix-moment-exclude="g-bg-black-opacity-0_4 g-py-10" data-header-fix-moment-classes="g-bg-black-opacity-0_7 g-py-0">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <!-- Responsive Toggle Button -->
+            <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+              <span class="hamburger hamburger--slider">
+
+            <span class="hamburger-box">
+
+              <span class="hamburger-inner"></span>
+              </span>
+              </span>
             </button>
-            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                <div class="navbar-nav mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link active">About</a>
-                    <a href="course.html" class="nav-item nav-link">Courses</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="detail.html" class="dropdown-item">Course Detail</a>
-                            <a href="feature.html" class="dropdown-item">Our Features</a>
-                            <a href="team.html" class="dropdown-item">Instructors</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-                <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Join Us</a>
+            <!-- End Responsive Toggle Button -->
+
+            <!-- Logo -->
+            <a href="../../../index.html" class="navbar-brand">
+              <img src="../../../assets/img/logo/logo-2.png" alt="Image Description">
+            </a>
+            <!-- End Logo -->
+
+            <!-- Navigation -->
+            <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg" id="navBar">
+              <ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto">
+                <li class="nav-item g-mx-20--lg">
+                  <a href="#!" class="nav-link px-0">Home
+
+                
+
+              </a>
+                </li>
+                <li class="nav-item g-mx-20--lg">
+                  <a href="#!" class="nav-link px-0">Features
+
+                
+
+              </a>
+                </li>
+                <li class="nav-item g-mx-20--lg active">
+                  <a href="#!" class="nav-link px-0">Shortcodes
+
+                <span class="sr-only">(current)</span>
+
+              </a>
+                </li>
+                <li class="nav-item g-mx-20--lg">
+                  <a href="#!" class="nav-link px-0">Pages
+
+                
+
+              </a>
+                </li>
+                <li class="nav-item g-mx-20--lg">
+                  <a href="#!" class="nav-link px-0">Demos
+
+                
+
+              </a>
+                </li>
+                <li class="nav-item g-ml-20--lg g-mr-0--lg">
+                  <a href="#!" class="nav-link px-0">What's New
+
+                
+
+              </a>
+                </li>
+              </ul>
             </div>
+            <!-- End Navigation -->
+          </div>
         </nav>
-    </div>
-    <!-- Navbar End -->
+      </div>
+    </header>
+    <!-- End Header -->

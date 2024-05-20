@@ -12,8 +12,7 @@ include 'header.php';
 </head>
 <body>
     <img src= "images/glewa.jpeg">
-    <img src= "images/glewa.jpeg">
-    <img src= "images/glewa.jpeg">
+
 </body>
 
 <?php 
